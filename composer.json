@@ -1,5 +1,5 @@
 {
-	"name": "twsro/yii2-widget-chart",
+	"name": "axcorpo/yii2-widget-chart",
 	"description": "Yii2 Chart Widget",
 	"keywords": ["yii2", "chart", "widget", "tws"],
 	"type": "yii2-extension",
