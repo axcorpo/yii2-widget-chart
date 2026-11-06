@@ -82,7 +82,7 @@ class Chart extends Widget
 	public function getClientSelector()
 	{
 		if (!$this->_clientSelector) {
-			$this->_clientSelector = '#' . $this->options['id'] ?: $this->getId();
+			$this->_clientSelector = '#' . ($this->options['id'] ?? $this->getId());
 		}
 		return $this->_clientSelector;
 	}
